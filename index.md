@@ -6,12 +6,12 @@ I will use this project to track my progress in Anomaly Detection area.
 
 ### Time-Series Anomaly Detection Service at Microsoft
 
-这是一篇微软发表的关于检测产品数据异常的文章，是一类典型的Anomaly detection问题，本文关键点：
-  1，基于时间序列的异常检测，面临标签缺失、泛化性及检测效率多重挑战
-  2，采用 unsupervised manner，借鉴了视觉领域的显著性检验（Saliency detection）思路，模型：SR+CNN
-  3，作为特征引入 supervised learning model 中
+这是一篇微软发表的关于检测产品数据异常的文章，是一类典型的Anomaly detection问题，本文关键点：  
+  1，基于时间序列的异常检测，面临标签缺失、泛化性及检测效率多重挑战  
+  2，采用 unsupervised manner，借鉴了视觉领域的显著性检验（Saliency detection）思路，模型：SR+CNN  
+  3，作为特征引入 supervised learning model 中  
 
-数据构建
+数据构建  
   本文引入了多个数据集，包括：
   ![image](https://user-images.githubusercontent.com/69101330/184881474-7dbaad23-f3a5-4fba-b4e1-929c1879e27e.png)
   并在数据集中引入了人工构造的基于策略的异常数据。
