@@ -42,3 +42,6 @@ Fraud detection is a typical research branch of anomaly detection.
 
 Anti money laundering is also an active area of anomaly detection.
 
+## GNN
+
+gnn models
